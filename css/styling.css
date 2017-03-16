@@ -1,0 +1,35 @@
+body {
+    font-size: 2em;
+    margin: 0;
+}
+#hero-img {
+    background-image: url("../img/church_1.jpg");
+    background-size: cover;
+    height: 60em;
+}
+
+#hero-text {
+    color: white;
+}
+#map {
+    height: 300px;
+    width: 600px;
+}
+
+#nav-title {
+    margin: 0px;
+    padding: 0;
+}
+
+.navbar {
+    margin-bottom: 0;
+}
+
+#location_address {
+    padding-top: 5em;
+    padding-bottom: 5em;
+}
+#hours {
+    padding-top: 5em;
+    padding-bottom: 5em;
+}
