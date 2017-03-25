@@ -1,6 +1,7 @@
 body {
     font-size: 2em;
     margin: 0;
+    padding: 45px 0 0 0;
 }
 #hero-img {
     background-image: url("../img/church_1.jpg");
@@ -9,6 +10,7 @@ body {
 }
 
 #hero-text {
+    font-size: 4em;
     color: white;
 }
 #map {
@@ -16,13 +18,9 @@ body {
     width: 600px;
 }
 
-#nav-title {
-    margin: 0px;
-    padding: 0;
-}
-
 .navbar {
-    margin-bottom: 0;
+    margin-bottom: 0 !important;
+    background-color: lightgray;
 }
 
 #location_address {
