@@ -6,13 +6,29 @@ body {
 #hero-img {
     background-image: url("../img/church_1.jpg");
     background-size: cover;
+    width: 100%;
     height: 60em;
 }
 
 #hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -1em;
+    margin-left: -1em;
     font-size: 4em;
     color: white;
+    vertical-align: middle;
 }
+
+#location-title {
+    padding-top: 1em;
+}
+
+#location-content {
+    padding-top: 100px;
+}
+
 #map {
     height: 300px;
     width: 600px;
