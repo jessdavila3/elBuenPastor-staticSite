@@ -15,9 +15,8 @@ body {
 #hero-text {
     position: absolute;
     top: 50%;
-    left: 50%;
+    left: 30%;
     margin-top: -1em;
-    margin-left: -1em;
     font-size: 4em;
     color: white;
     vertical-align: middle;
@@ -63,4 +62,9 @@ body {
 
 #hours-text > ul> li {
     padding: 1em;
+}
+
+.navbar-right > a {
+    padding-left: 1em;
+    padding-right: .5em;
 }
