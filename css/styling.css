@@ -52,11 +52,10 @@ body {
 }*/
 
 #address-text {
-    margin-left: 3em;
-    margin-top: 3em;
+    margin-top: 2em;
 }
 #hours {
-    padding-top: 5em;
+    padding-top: 2em;
     padding-bottom: 5em;
 }
 
@@ -67,4 +66,15 @@ body {
 .navbar-right > a {
     padding-left: 1em;
     padding-right: .5em;
+}
+
+#bottom-nav {
+    height: 100px;
+    width: 100%;
+}
+
+#hours {
+    width: 100%;
+    border-top: black 1px solid;
+    margin-top: 4em;
 }
