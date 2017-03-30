@@ -34,6 +34,10 @@ body {
     vertical-align: middle;
 }
 
+#hero-text > small {
+    color: white;
+}
+
 #location-title {
     padding-top: 1em;
     font-size: 2.5em;
