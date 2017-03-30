@@ -5,6 +5,18 @@ body {
     font-family: 'Lato', sans-serif;
 
 }
+
+.navbar {
+    margin-top: 0;
+    margin-bottom: 0 !important;
+    background-color: lightgray;
+}
+
+.navbar-right > a {
+    padding-left: 1em;
+    padding-right: .5em;
+}
+
 #hero-img {
     background-image: url("../img/church_1.jpg");
     background-size: cover;
@@ -27,10 +39,6 @@ body {
     font-size: 2.5em;
 }
 
-#hours-title {
-    font-size: 2.5em;
-}
-
 #location-content {
     padding-top: 100px;
 }
@@ -40,20 +48,14 @@ body {
     width: 550px;
 }
 
-.navbar {
-    margin-top: 0;
-    margin-bottom: 0 !important;
-    background-color: lightgray;
-}
-
-/*#location_address {
-    padding-top: 5em;
-    padding-bottom: 5em;
-}*/
-
 #address-text {
     margin-top: 2em;
 }
+
+#hours-title {
+    font-size: 2.5em;
+}
+
 #hours {
     padding-top: 2em;
     padding-bottom: 5em;
@@ -63,9 +65,10 @@ body {
     padding: 1em;
 }
 
-.navbar-right > a {
-    padding-left: 1em;
-    padding-right: .5em;
+#hours {
+    width: 100%;
+    border-top: black 1px solid;
+    margin-top: 4em;
 }
 
 #bottom-nav {
@@ -73,8 +76,6 @@ body {
     width: 100%;
 }
 
-#hours {
-    width: 100%;
-    border-top: black 1px solid;
-    margin-top: 4em;
+#madeBy-tag {
+    margin-top: 1em;
 }
