@@ -24,8 +24,6 @@ body {
     height: 100vh;
     position: relative;
     display: block;
-    margin-top: 0;
-    padding-top: 0;
 }
 
 #hero-text {
@@ -35,6 +33,7 @@ body {
     vertical-align: middle;
     text-align: center;
     line-height: 100vh;
+    margin-top: 0;
 }
 
 #hero-text > small {
@@ -44,6 +43,7 @@ body {
 #location-title {
     padding-top: 1em;
     font-size: 2.5em;
+    text-align: center;
 }
 
 #location-content {
