@@ -6,13 +6,7 @@ body {
 
 }
 
-.navbar {
-    margin-top: 0;
-    margin-bottom: 0 !important;
-    background-color: lightgray;
-}
-
-.navbar-right > a {
+#top-nav > a {
     padding-left: 1em;
     padding-right: .5em;
 }
