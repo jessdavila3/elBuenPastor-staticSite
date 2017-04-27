@@ -75,6 +75,8 @@ body {
 #bottom-nav {
     height: 100px;
     width: 100%;
+    margin-bottom: 0;
+    padding-bottom: 0;
 }
 
 #madeBy-tag {
