@@ -1,5 +1,5 @@
 html, body {
-    font-size: 1em;
+    font-size: 14pt;
     width: 100%;
     height: 100%;
     margin: 0px;
@@ -38,13 +38,13 @@ html, body {
     color: white;
 }
 
-#location-title {
+h2 {
     padding-top: 1em;
     font-size: 2.5em;
     text-align: center;
 }
 
-#location-content {
+.title-content-spacing {
     padding-top: 100px;
 }
 
@@ -57,10 +57,6 @@ html, body {
     margin-top: 2em;
 }
 
-#hours-title {
-    font-size: 2.5em;
-}
-
 #hours {
     padding-top: 2em;
     padding-bottom: 5em;
@@ -70,7 +66,7 @@ html, body {
     padding: 1em;
 }
 
-#hours {
+.content-module {
     width: 100%;
     border-top: black 1px solid;
     margin-top: 4em;
@@ -86,3 +82,4 @@ html, body {
 #madeBy-tag {
     margin-top: 2em;
 }
+
