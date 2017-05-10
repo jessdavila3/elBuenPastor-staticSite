@@ -1,5 +1,4 @@
 html, body {
-    font-size: 14pt;
     width: 100%;
     height: 100%;
     margin: 0px;
@@ -26,12 +25,13 @@ html, body {
 
 #hero-text {
     position: relative;
-    font-size: 5em;
+    font-size: 8vw;
     color: white;
     vertical-align: middle;
     text-align: center;
     line-height: 100vh;
     margin-top: 0;
+    display: relative;
 }
 
 .white-links>a {
@@ -49,8 +49,8 @@ h2 {
 }
 
 #map {
-    height: 275px;
-    width: 550px;
+    height: 280px;
+    width: 500px;
 }
 
 #address-text {
@@ -69,7 +69,7 @@ h2 {
 .content-module {
     width: 100%;
     border-top: black 1px solid;
-    margin-top: 4em;
+    margin-top: 3em;
 }
 
 #bottom-nav {
