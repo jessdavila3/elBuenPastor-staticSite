@@ -22,6 +22,8 @@ html, body {
     height: 100vh;
     position: relative;
     display: block;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 #hero-text {
