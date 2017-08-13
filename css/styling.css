@@ -32,9 +32,13 @@ html, body {
     color: white;
     vertical-align: middle;
     text-align: center;
-    line-height: 100vh;
     margin-top: 0;
     display: relative;
+    padding-top: 25vh;
+}
+
+#hero-text small {
+    color: whitesmoke;
 }
 
 .white-links>a {
